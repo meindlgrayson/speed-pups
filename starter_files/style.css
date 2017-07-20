@@ -14,9 +14,140 @@ colors:
 */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    
+  background-color: #046c97;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+nav > a {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+a > img {
+  margin: 10px 10px 25px 10px;
+}
+
+div {
+  background-color: white;
+  border-radius: 0px 0px 5px 5px;
+}
+
+body > div:first-child {
+  border: 2px solid #ffd24a;
+  border-radius: 5px;
+}
+
+header {
+  background-color: #ff8523;
+  padding: 30px;
+  padding-bottom: 40px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+#page_content {
+  padding: 25px;
+}
+
+h2, h3 {
+  color: #1fabe5;
+}
+
+ul {
+  font-weight: bold;
+}
+
+section {
+  border-bottom: 5px solid #ddd;
+  padding-bottom: 40px;
+  /*border-width: 300px;*/
+}
+
+thead {
+  background-color: #1fabe5;
+}
+
+td > img {
+  height: 40%;
+  width: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #1fabe5;
+  padding: 5px;
+}
+
+thead > tr > td {
+  border-color: #046c97;
+  color: white;
+}
+
+form {
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form div {
+  background-color: #ddd;
+  border-radius: 0px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.name {
+  border-radius: 10px;
+  background-color: #ff8523;
+  color: white;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.submit_container {
+  border-radius: 0px 0px 5px 5px;
+}
+
+#first_name, #last_name {
+  height: 30px;
+  width: 150px;
+}
+
+#bio {
+  width: 100%;
+  border: 1px solid #1fabe5;
+  font-size: 15px;
+  padding: 10px;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  border: 1px solid #1fabe5;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  height: 60px;
+  width: 100px;
+
 }
